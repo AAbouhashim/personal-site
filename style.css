@@ -18,6 +18,9 @@
 width: 50vw;
 }
 
+.icon{
+width: 20%;
+}
 /*image sizes*/
 
 .header{
@@ -29,6 +32,30 @@ width: 50vw;
   letter-spacing: 5px;
   animation-name: squeeze;
   animation-duration: 1s;
+}
+
+.nav-bar ul{
+  list-style-type: none;
+  background-color: #3e7363;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.nav-bar a{
+  color: #fffae6;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.nav-bar a:hover{
+  background-color: #5ab89c;
+}
+
+.nav-bar li{
+  float: left;
 }
 
 .container-column{
@@ -49,7 +76,6 @@ width: 50vw;
 
 .box-2{
   flex: 1;
-  width: 100%;
   text-align: left;
   background-color: #fffae6;
   padding: 2vh;
@@ -57,4 +83,5 @@ width: 50vw;
 
 .box-3{
   flex: 1;
+  align-items: center;
 }
